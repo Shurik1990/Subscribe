@@ -1,2 +1,2 @@
 # Subscribe
-Form for registration
+Form for registration (SCSS, Flex)

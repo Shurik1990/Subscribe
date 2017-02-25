@@ -1,0 +1,97 @@
+@import url(http://ufonts.com/q167964);
+body {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -400px;
+  font-family: Lao UI Bold, sans-serif; }
+
+.container {
+  width: 800px;
+  height: 600px;
+  background: url(../img/background.png) no-repeat; }
+  .container .row {
+    width: 100%; }
+    .container .row .report {
+      background: url(../img/report.png) no-repeat;
+      width: 100%;
+      height: 130px;
+      display: block;
+      position: relative;
+      top: 15px;
+      left: 30px; }
+    .container .row .right {
+      display: flex;
+      flex-flow: column;
+      align-items: flex-end;
+      width: 52%;
+      float: right; }
+      .container .row .right .how {
+        color: black;
+        font-weight: bolder;
+        font-size: 48px;
+        text-align: end;
+        position: relative;
+        right: 15px;
+        top: -75px; }
+      .container .row .right .arrow {
+        display: block;
+        background: url(../img/arrow.png) no-repeat;
+        width: 110px;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: -40px; }
+      .container .row .right form {
+        padding-top: 5px;
+        margin: 0 auto; }
+        .container .row .right form .fieldset {
+          display: flex;
+          flex-flow: column;
+          text-align: end;
+          border: none; }
+          .container .row .right form .fieldset .form-group {
+            line-height: 50px; }
+            .container .row .right form .fieldset .form-group .name_email {
+              color: white;
+              font-size: 26px;
+              font-weight: bolder;
+              vertical-align: bottom;
+              padding-right: 10px; }
+            .container .row .right form .fieldset .form-group .form-control {
+              padding: 8px 0 8px 15px;
+              box-shadow: 0px 1px 0px 2px #eaeaea inset;
+              width: 230px; }
+            .container .row .right form .fieldset .form-group input[placeholder] {
+              font-weight: bolder;
+              color: #f1f1f1;
+              font-family: Lao UI Bold, sans-serif; }
+            .container .row .right form .fieldset .form-group .btn {
+              cursor: pointer;
+              border: 2px solid white;
+              position: relative;
+              display: inline-block;
+              width: 7em;
+              height: 2.5em;
+              line-height: 2em;
+              vertical-align: middle;
+              text-align: center;
+              color: white;
+              border-radius: 1px;
+              font-size: 16px;
+              outline: none;
+              border: 2px solid white;
+              background: linear-gradient(#f28275, #cc685f 48%, #cc685f 52%, #f28275);
+              margin-top: 10px; }
+            .container .row .right form .fieldset .form-group .btn:hover {
+              background: #e85f4c; }
+    .container .row .text_bottom {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      width: 100%;
+      padding-top: 25px;
+      color: white;
+      font-weight: bolder; }
+
+/*# sourceMappingURL=style.css.map */
